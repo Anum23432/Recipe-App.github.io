@@ -28,8 +28,12 @@ h1{
     margin:30px;
     border-radius: 20px;
     box-shadow: 0 0 20px 0 orangered;
-    background: linear-gradient(gold ,orange, orangered,white,slateblue);  
-    opacity:0.7;
+    background: hsla(42, 93%, 57%, 1);
+    background: linear-gradient(90deg, hsla(42, 93%, 57%, 1) 0%, hsla(358, 78%, 62%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(42, 93%, 57%, 1) 0%, hsla(358, 78%, 62%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(42, 93%, 57%, 1) 0%, hsla(358, 78%, 62%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7BA2C", endColorstr="#EA5459", GradientType=1 );  
+    opacity:0.9;
 }
 
 /* hover effects */
