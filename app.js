@@ -27,11 +27,9 @@ function recipeArray(obj){
   document.getElementById("wrapper").innerHTML =(reciepes.map(recipe => 
     `
     <div class="main">
-      <div class="content">
         <img  src="${recipe.image}" />
         <div class="title">${recipe.title}</div>
         <button type="button" class="btn">View Recipe</button>
-     </div> 
     </div>`
 ).join(''));
 }
